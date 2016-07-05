@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Yekan';
+    src: url('../../../template/fonts/Yekan-modified.eot');
+    src: url('../../../template/fonts/Yekan-modified.eot#iefix') format('embedded-opentype'),
+    url('../../../template/fonts/Yekan-modified.woff') format('woff'),
+    url('../../../template/fonts/Yekan-modified.ttf') format('truetype'),
+    url('../../../template/fonts/Yekan-modified.svg#CartoGothicStdBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    font-family: Yekan;}
+body{
+    direction: rtl;
+    font-family: 'Yekan';
+    background: #c4e3f3;
+}
+#header {
+    background-color:#449d44;
+    color:black;
+    text-align:center;
+    
+}
+#section {
+    text-align: center;
+}
+#footer {
+    background-color:#449d44;
+    color:black;
+    text-align:center;
+}
+.error {
+    font-weight: bold;
+    color:#c9302c;
+}
+#login {
+
+    width: 30%;
+    text-align: center;
+    color:#269abc;
+    padding: 2px;
+}
+.table_login, .table_login tr, .table_login td {
+    text-align: center;
+}
+
+.input_username {
+    text-align:center;
+    font-size:16px;
+    font-weight: bold;
+    color:#c9302c;
+    padding: 5px;
+    margin: 2px;
+    width:90%;
+}
+.input_login{
+    font-size:13px;
+    font-weight: bold;
+    color:#31708f;
+    width:100%;
+}

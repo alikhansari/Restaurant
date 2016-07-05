@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'Yekan';
+    src: url('../../../template/fonts/Yekan-modified.eot');
+    src: url('../../../template/fonts/Yekan-modified.eot#iefix') format('embedded-opentype'),
+    url('../../../template/fonts/Yekan-modified.woff') format('woff'),
+    url('../../../template/fonts/Yekan-modified.ttf') format('truetype'),
+    url('../../../template/fonts/Yekan-modified.svg#CartoGothicStdBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@media print {
+    .print_none {
+        display: none;
+    }
+}
+
+*{
+    font-family: Yekan;}
+body{
+    direction: rtl;
+    font-family: 'Yekan';
+    background: #c4e3f3;
+}
+.table_admin {
+    border: thin;
+}
+.table_admin,.table_admin td,.table_admin tr{
+    text-align:center;
+    padding:5px;
+}
+.table_admin a,.table_admin a:link,.table_admin a:hover, .table_admin a:visited{
+    text-decoration: none;
+    color:#2e6da4;
+}
+.input_number {
+    width:30%;
+    text-align: center;
+    font-size:13px;
+    color:#000000;
+    padding: 1px;
+}
+.pagination{
+    padding: 2px;
+}
+
+.pagination ul{
+    margin: 0;
+    padding: 0;
+    text-align: left; /*Set to "right" to right align pagination interface*/
+    font-size: 16px;
+}
+
+.pagination li{
+    list-style-type: none;
+    display: inline;
+    padding-bottom: 1px;
+}
+
+.pagination a, .pagination a:visited{
+    padding: 0 5px;
+    border: 1px solid #9aafe5;
+    text-decoration: none;
+    color: #2e6ab1;
+}
+
+.pagination a:hover, .pagination a:active{
+    border: 1px solid #2b66a5;
+    color: #000;
+    background-color: #FFFF80;
+}
+
+.pagination a.currentpage{
+    background-color: #2e6ab1;
+    color: #FFF !important;
+    border-color: #2b66a5;
+    font-weight: bold;
+    cursor: default;
+}
+
+.pagination a.disablelink, .pagination a.disablelink:hover{
+    background-color: white;
+    cursor: default;
+    color: #929292;
+    border-color: #929292;
+    font-weight: normal !important;
+}
+
+.pagination a.prevnext{
+    font-weight: bold;
+}
+
+
+
+.input_select {
+    width:10%;
+    text-align: center;
+    font-size:13px;
+    color:#000000;
+}
+
+.input_general {
+    width:70%;
+    text-align: center;
+    font-size:14px;
+    color:#000000;
+    padding: 3px;
+}
+.error {
+    color:red;
+    font-weight: bold;
+}
+
+.input_disable {
+    width:50%;
+    text-align: center;
+    font-size:13px;
+    color:#ac2925;
+    padding: 3px;
+    cursor:not-allowed;
+}
+.main_report {
+    text-align: center;
+}
+.main_report a,.main_report a:link, .main_report a:visited, .main_report a:hover {
+    text-decoration: none;
+}
+.main_report table {
+    border-bottom: thin;
+    border-top: thin;
+    border-right: none;
+    border-left: none;
+    border-color: #000;
+}
+.select_search {
+    width:20%;
+    text-align: center;
+    font-size:14px;
+    color:#2b542c;
+    padding: 3px;
+}
+
+input[type="submit"] {
+    padding: 3px;
+    font-size:14px;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+}
+select {
+    width:70%;
+    text-align: center;
+    font-size:14px;
+    color:#c7254e;
+    padding: 3px;
+}
+.input_search {
+    width:100%;
+    text-align: center;
+    font-size:14px;
+    color:#c7254e;
+    padding: 3px;
+}
+.table_report, .table_report td{
+    text-align: center;
+}
